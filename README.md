@@ -24,6 +24,10 @@ torch.cuda.is_available()
  1.复制你要查看的文件的URL，打开该网站：https://nbviewer.jupyter.org/ ，把你的URL复制到文本框，最后回车。  
  2.clone下来在本地查看  
  
+ #### 问题3.spacy load问题   Can't find model 'en_core_web_sm'  
+ 解决方法：
+ python -m spacy download en  或者  py -3 -m spacy download en  
+ 
  ## 自己照着代码运行，可能代码中穿插一些遇到的问题
  
  
