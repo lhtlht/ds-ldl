@@ -28,6 +28,15 @@ torch.cuda.is_available()
  解决方法：
  python -m spacy download en  或者  py -3 -m spacy download en  
  
+ 
+ #### 问题4.nltk 安装完出现LookupError问题    
+ 解决方法：
+ ```
+import nltk     
+nltk.download('punkt')   
+```
+ 
+ 
  ## 自己照着代码运行，可能代码中穿插一些遇到的问题
  
  
