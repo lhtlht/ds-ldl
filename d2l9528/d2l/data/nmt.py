@@ -21,7 +21,7 @@ def load_data_nmt(batch_size, max_len, num_examples=1000):
         return out 
 
 
-    with open('../../../../data/fraeng6506/fra.txt', 'r') as f:
+    with open('G:\\python_project\\data\\fraeng6506\\fra.txt', 'r', encoding='utf-8') as f:
       raw_text = f.read()
 
 
